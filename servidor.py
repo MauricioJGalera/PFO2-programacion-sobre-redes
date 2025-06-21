@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 # ---------- Inicializar la base de datos ----------
 def init_db():
-    conn = sqlite3.connect('database.db')
+    conn = sqlite3.connect('database.db', check_same_thread=False)
     cursor = conn.cursor()
     cursor.execute('''
         CREATE TABLE IF NOT EXISTS usuarios (
