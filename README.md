@@ -21,7 +21,7 @@ HTML (para la vista de bienvenida)
    
 `python -m venv venv`
 
-`.venv\Scripts\activate`
+`. venv\Scripts\activate`
 
 2. Instalar dependencias
    
