@@ -33,6 +33,10 @@ HTML (para la vista de bienvenida)
 
 La API se iniciará en: http://localhost:5000
 
+4. Ejecutar el cliente para pruebas por consola
+
+`python cliente.py`
+
 ## Endpoints disponibles
 POST /registro
 
